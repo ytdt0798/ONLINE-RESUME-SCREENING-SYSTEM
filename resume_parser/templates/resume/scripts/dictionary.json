@@ -1,0 +1,1196 @@
+{
+    "name_list": [
+        "Muhammad Abu",
+        "Haji Samad Syed Fakhri",
+        "Nancy Micheals",
+        "Liu Wei Liang",
+        "Lim Jia Mei",
+        "Palanivel Sellan A/L Palanivel Kathigasu",
+        "Pushpa a/l Renuga Thirunavukarasu",
+        "Ravi Theva",
+        "Goh Zheng Kang",
+        "Chu Wei Liang",
+        "Nigel Ng",
+        "Tan Zhi Qi",
+        "Tan Re Hen",
+        "Alfred Chin",
+        "Anum Zahra",
+        "Moeez Hussain",
+        "Adinda Maharani Putri",
+        "Elisha Paulraj",
+        "Mohamed Fahad Farhan",
+        "Jennifer Nderumaki",
+        "Aminath Maareen Mohamed",
+        "Mah Bo Wen",
+        "Nur Aimi Shamrul-Mar",
+        "Shirlynn Low Shir Ling",
+        "Shermaine Ong",
+        "Fariha Tabassum Sultan Maliyat",
+        "Lim Ker Ming",
+        "Bryan Low Kah Shing",
+        "Chan Jing Mun",
+        "Anya Bhikajee"
+    ],
+    "skills": [
+        {
+            "name": "Adobe Photoshop",
+            "variants": [
+                "Photoshop",
+                "Adobe PS"
+            ]
+        },
+        {
+            "name": "Adobe Illustrator",
+            "variants": [
+                "Illustrator",
+                "Adobe AI"
+            ]
+        },
+        {
+            "name": "Adobe InDesign",
+            "variants": [
+                "InDesign",
+                "Adobe ID"
+            ]
+        },
+        {
+            "name": "Adobe Premiere Pro",
+            "variants": [
+                "Premiere Pro",
+                "Adobe Premiere",
+                "Premiere",
+                "Adobe PP"
+            ]
+        },
+        {
+            "name": "Adobe After Effects",
+            "variants": [
+                "After Effects",
+                "Adobe AE"
+            ]
+        },
+        {
+            "name": "Adobe XD",
+            "variants": [
+                "Adobe XD"
+            ]
+        },
+        {
+            "name": "Adobe Dreamweaver",
+            "variants": [
+                "Dreamweaver",
+                "Adobe DW"
+            ]
+        },
+        {
+            "name": "Adobe Lightroom",
+            "variants": [
+                "Lightroom",
+                "Adobe LR"
+            ]
+        },
+        {
+            "name": "Adobe Audition",
+            "variants": [
+                "Adobe Audition"
+            ]
+        },
+        {
+            "name": "Redux",
+            "variants": [
+                "Redux"
+            ]
+        },
+        {
+            "name": "Vue.js",
+            "variants": [
+                "Vue",
+                "Vuejs"
+            ]
+        },
+        {
+            "name": "Data Visualization",
+            "variants": [
+                "Data Visualisation",
+                "Data Visualization",
+                "Data Viz"
+            ]
+        },
+        {
+            "name": "Angular",
+            "variants": [
+                "Angular"
+            ]
+        },
+        {
+            "name": "React",
+            "variants": [
+                "React"
+            ]
+        },
+        {
+            "name": "Responsive Web Design",
+            "variants": [
+                "Responsive Web Design",
+                "RWD"
+            ]
+        },
+        {
+            "name": "HTML",
+            "variants": [
+                "HTML"
+            ]
+        },
+        {
+            "name": "CSS",
+            "variants": [
+                "CSS"
+            ]
+        },
+        {
+            "name": "SQL",
+            "variants": [
+                "SQL"
+            ]
+        },
+        {
+            "name": "MYSQL",
+            "variants": [
+                "MYSQL"
+            ]
+        },
+        {
+            "name": "PHP",
+            "variants": [
+                "PHP"
+            ]
+        },
+        {
+            "name": "JavaScript",
+            "variants": [
+                "JavaScript",
+                "JS"
+            ]
+        },
+        {
+            "name": "Microsoft Word",
+            "variants": [
+                "Word",
+                "MS Word"
+            ]
+        },
+        {
+            "name": "Microsoft Excel",
+            "variants": [
+                "Excel",
+                "MS Excel"
+            ]
+        },
+        {
+            "name": "Microsoft PowerPoint",
+            "variants": [
+                "PowerPoint",
+                "MS PowerPoint",
+                "Power Point"
+            ]
+        },
+        {
+            "name": "Microsoft Power BI",
+            "variants": [
+                "Microsoft Power BI",
+                "Power BI"
+            ]
+        },
+        {
+            "name":"Microsoft 365",
+            "variants": [
+                "Microsoft 365"
+            ]
+        },
+        {
+            "name": "SAS Enterprise Miner",
+            "variants": [
+                "SAS Enterprise Miner"
+            ]
+        },
+        {
+            "name": "C",
+            "variants": [
+                "C "
+            ]
+        },
+        {
+            "name": "R",
+            "variants": [
+                "R"
+            ]
+        },
+        {
+            "name": "C++",
+            "variants": [
+                "C++",
+                "C Plus Plus"
+            ]
+        },
+        {
+            "name": "C#",
+            "variants": [
+                "C#",
+                "C Sharp"
+            ]
+        },
+        {
+            "name": "Java",
+            "variants": [
+                "Java"
+            ]
+        },
+        {
+            "name": "Python",
+            "variants": [
+                "Python"
+            ]
+        },
+        {
+            "name": "Collaborative",
+            "variants": [
+                "Teamwork-oriented",
+                "Team-oriented",
+                "Team player",
+                "Cooperative",
+                "Participative",
+                "Interpersonal collaboration",
+                "Working well in groups",
+                "Synergistic",
+                "Relationship-building",
+                "Cooperative problem-solving",
+                "Collective effort",
+                "Collaborative mindset",
+                "Teamwork",
+                "Ability to work in group",
+                "Collaborative nature"
+            ]
+        },
+        {
+            "name": "Adaptive Learner",
+            "variants": [
+                "Adaptive Learner"
+            ]
+        },
+        {
+            "name": "Responsible",
+            "variants": [
+                "Responsible"
+            ]
+        },
+        {
+            "name": "Self-driven",
+            "variants": [
+                "Self-driven"
+            ]
+        },
+        {
+            "name": "Creative",
+            "variants": [
+                "Innovative",
+                "Imaginative",
+                "Inventive",
+                "Original",
+                "Resourceful",
+                "Outside-the-box thinking",
+                "Artistic",
+                "Problem-solving",
+                "Problem solving",
+                "Flexible thinking",
+                "Thinking creatively",
+                "Creativity",
+                "Creative"
+            ]
+        },
+        {
+            "name": "Time Management",
+            "variants": [
+                "Punctuality",
+                "Timeliness",
+                "Being on time",
+                "Meeting deadlines",
+                "Promptness",
+                "Reliability",
+                "Adherence to schedules",
+                "Being punctual",
+                "Respecting time commitments",
+                "Being time-conscious",
+                "Time Management"
+            ]
+        },
+        {
+            "name": "Open-minded",
+            "variants": [
+                "Receptiveness",
+                "Acceptance",
+                "Tolerance",
+                "Non-judgmental",
+                "Flexibility",
+                "Willingness to consider different perspectives",
+                "Embracing diversity",
+                "Adaptability",
+                "Being receptive to new ideas",
+                "Having a growth mindset",
+                "Being open to feedback"
+            ]
+        },
+        {
+            "name": "Prezi",
+            "variants": [
+                "Prezi"
+            ]
+        },
+        {
+            "name": "Spring Framework",
+            "variants": [
+                "Spring Framework",
+                "Spring"
+            ]
+        },
+        {
+            "name": "Node.js",
+            "variants": [
+                "Node.js"
+            ]
+        },
+        {
+            "name": "Express Framework",
+            "variants": [
+                "Express",
+                "Express Framework"
+            ]
+        },
+        {
+            "name": "Public Relations & Marketing",
+            "variants": [
+                "PR & Marketing"
+            ]
+        },
+        {
+            "name": "Leadership",
+            "variants": [
+                "Leadership",
+                "Effective Leadership",
+                "Strong Leadership Abilities",
+                "Inspiring Leadership",
+                "Visionary Leadership",
+                "Strategic Leadership",
+                "Adaptive Leadership",
+                "Team Leadership",
+                "Collaborative Leadership",
+                "Transformational Leadership",
+                "Charismatic Leadership",
+                "Empowering Leadership",
+                "Decisive Leadership",
+                "Ethical Leadership",
+                "Servant Leadership",
+                "Influential Leadership",
+                "Team management"
+            ]
+        },
+        {
+            "name": "Microsoft Office Suite",
+            "variants": [
+                "Microsoft Office Suite",
+                "Microsoft Suite",
+                "Office"
+            ]
+        },
+        {
+            "name": "Team Building",
+            "variants": [
+                "Team Building"
+            ]
+        },
+        {
+            "name": "Medicare and Medicaid applications",
+            "variants": [
+                "Medicare and Medicaid applications"
+            ]
+        },
+        {
+            "name": "Customer Service",
+            "variants": [
+                "Customer Service"
+            ]
+        },
+        {
+            "name": "Cultural Sensitivity",
+            "variants": [
+                "Cultural Sensitivity"
+            ]
+        },
+        {
+            "name": "Knowledge of Medical and Psychiatric Terminology",
+            "variants": [
+                "Knowledge of Medical and Psychiatric Terminology"
+            ]
+        },
+        {
+            "name": "Case Management",
+            "variants": [
+                "Case Management"
+            ]
+        },
+        {
+            "name": "Family Reunification Specialist",
+            "variants": [
+                "Family Reunification Specialist"
+            ]
+        },
+        {
+            "name": "Skilled Community-based Case Manager",
+            "variants": [
+                "Skilled Community-based Case Manager"
+            ]
+        },
+        {
+            "name": "Video Editing",
+            "variants": [
+                "Video Editing"
+            ]
+        },
+        {
+            "name": "Entrepreneurship",
+            "variants": [
+                "Entrepreneurship"
+            ]
+        },
+        {
+            "name": "Entrepreneurship and Marketing Skills",
+            "variants": [
+                "Entrepreneurship and Marketing Skills"
+            ]
+        },
+        {
+            "name": "Image Editing",
+            "variants": [
+                "Image Editing"
+            ]
+        },
+        {
+            "name": "Jira",
+            "variants": [
+                "Jira"
+            ]
+        },
+        {
+            "name": "Bugzilla",
+            "variants": [
+                "Bugzilla"
+            ]
+        },
+        {
+            "name": "Slack",
+            "variants": [
+                "Slack"
+            ]
+        },
+        {
+            "name": "Doxygen",
+            "variants": [
+                "Doxygen"
+            ]
+        },
+        {
+            "name": "Jenkin",
+            "variants": [
+                "Jenkin",
+                "Jenkins."
+            ]
+        },
+        {
+            "name": "Autocount Accounting System Software",
+            "variants": [
+                "Autocount Accounting System Software","Autocount"
+            ]
+        },
+        {
+            "name":"Google Slides",
+            "variants": [
+                "Google Slides"
+            ]
+        },
+        {
+            "name": "Accounting Knowledge",
+            "variants": [
+                "Accounting Knowledge"
+            ]
+        },
+        {
+            "name": "Accounting and Finance Knowledge",
+            "variants": [
+                "Fundamental knowledge on Accounting and Finance",
+                "Fundamental knowledge on\nAccounting and Finance"
+            ]
+        },
+        {
+            "name": "Aspen HYSYS",
+            "variants": [
+                "Aspen HYSYS"
+            ]
+        },
+        {
+            "name": "MATLAB",
+            "variants": [
+                "MATLAB"
+            ]
+        },
+        {
+            "name": "Simulink",
+            "variants": [
+                "Simulink"
+            ]
+        },
+        {
+            "name": "AutoCAD",
+            "variants": [
+                "AutoCAD"
+            ]
+        },
+        {
+            "name": "COMSOL Multiphysics",
+            "variants": [
+                "COMSOL Multiphysics"
+            ]
+        },
+        {
+            "name":"Content Writer and Editor",
+            "variants": [
+                "Content Writer and Editor"
+            ]
+        },
+        {
+            "name":"SEO and SEM",
+            "variants": [
+                "SEO and SEM"
+            ]
+        },
+        {
+            "name": "Strong Communication Skills",
+            "variants": [
+                "Strong Communication Skill",
+                "Strong Communication",
+                "Effective Communication",
+                "Clear and Concise Communication",
+                "Articulate Communication",
+                "Fluent and Fluent Expressiveness",
+                "Persuasive Communication",
+                "Active Listening",
+                "Non-Verbal Communication",
+                "Verbal and Written Communication",
+                "Interpersonal Communication",
+                "Communication skills",
+                "Communications",
+                "Professional Communication"
+            ]
+        },
+        {
+            "name": "Fast Learner",
+            "variants": [
+                "Fast Learner",
+                "Quick Learning Abilities",
+                "Rapid Assimilation of Information",
+                "Adaptability and Learning Agility",
+                "Swift Grasping of Concepts",
+                "Speedy Acquisition of New Skills",
+                "Efficient Learning Capacity",
+                "Rapid Skill Development",
+                "Ability to Learn and Apply Knowledge Quickly",
+                "Quick Study Skills",
+                "Aptitude for Fast Learning"
+            ]
+        },
+        {
+            "name": "Attention to Details",
+            "variants": [
+                "Attention to Details",
+                "Attention to Detail",
+                "Attention-to-Details",
+                "Attention-to-Detail"
+            ]
+        },
+        {
+            "name": "Canva",
+            "variants": [
+                "Canva"
+            ]
+        },
+        {
+            "name": "Positive Personality",
+            "variants": [
+                "Positive Personality",
+                "Positive mindset",
+                "Positive Attitude",
+                "Optimism",
+                "Positivity",
+                "Can-do Attitude",
+                "Enthusiasm",
+                "Upbeat Outlook",
+                "Resilience",
+                "Solution-Oriented Mindset",
+                "Positive Energy",
+                "Motivated Attitude",
+                "Proactive Approach",
+                "Enthusiasm"
+            ]
+        },
+        {
+            "name":"Financial Reporting",
+            "variants": [
+                "Financial Reporting"
+            ]
+        },
+        {
+            "name":"IFCA Software",
+            "variants": [
+                "IFCA Software"
+            ]
+        },
+        {
+            "name":"Project Management",
+            "variants": [
+                "Project Management"
+            ]
+        },
+        {
+            "name": "Stata",
+            "variants": [
+                "Stata"
+            ]
+        },
+        {
+            "name": "Eviews",
+            "variants": [
+                "Eviews"
+            ]
+        },
+        {
+            "name": "SPSS",
+            "variants": [
+                "SPSS"
+            ]
+        },
+        {
+            "name": "SmartPLS",
+            "variants": [
+                "SmartPLS"
+            ]
+        },
+        {
+            "name": "Copywriting",
+            "variants": [
+                "Copywriting",
+                "Copy writing",
+                "Copy-writing"
+            ]
+        },
+        {
+            "name": "Computer Literacy",
+            "variants": [
+                "Computer Literacy"
+            ]
+        },
+        {
+            "name": "Blueprint Interpretation",
+            "variants": [
+                "Blueprint Interpretation"
+            ]
+        },
+        {
+            "name": "Data Analysis",
+            "variants": [
+                "Data Analysis"
+            ]
+        },
+        {
+            "name": "Exploratory Data Analysis",
+            "variants": [
+                "Exploratory Data Analysis",
+                "Exploratory Data\nAnalysis"
+            ]
+        },
+        {
+            "name": "Technical Documentation",
+            "variants": [
+                "Technical Documentation",
+                "Technical\nDocumentation"
+            ]
+        },
+        {
+            "name":"Management",
+            "variants": [
+                "Management"
+            ]
+        },
+        {
+            "name":"Event Organization",
+            "variants": [
+                "Event Organization"
+            ]
+        },
+        {
+            "name": "Hotelogix",
+            "variants": [
+                "Hotelogix"
+            ]
+        },
+        {
+            "name": "Report Writing",
+            "variants": [
+                "Report Writing"
+            ]
+        },
+        {
+            "name": "Strategic Thinking",
+            "variants": [
+                "Strategic Thinking"
+            ]
+        },
+        {
+            "name": "Goal-Oriented",
+            "variants": [
+                "Highly Motivated",
+                "Self-Motivated",
+                "Driven and Ambitious",
+                "Goal-Oriented",
+                "Proactive and Initiating",
+                "Result-Focused",
+                "Determined and Persistent",
+                "Passionate and Committed",
+                "Inner Drive and Motivation",
+                "Self-Disciplined",
+                "Inspired and Self-Starter"
+            ]
+        },
+        {
+            "name": "Diligent",
+            "variants": [
+                "Dedicated",
+                "Committed",
+                "Devoted",
+                "Focused",
+                "Reliable",
+                "Consistent",
+                "Hardworking",
+                "Diligent",
+                "Tenacious",
+                "Persevering"
+            ]
+        },
+        {
+            "name": "English",
+            "variants": [
+                "English"
+            ]
+        },
+        {
+            "name": "Mandarin",
+            "variants": [
+                "Mandarin",
+                "Chinese"
+            ]
+        },
+        {
+            "name": "French",
+            "variants": [
+                "French"
+            ]
+        },
+        {
+            "name": "Bahasa Malaysia",
+            "variants": [
+                "BM",
+                "Bahasa Malaysia",
+                "Bahasa Melayu",
+                "Malay"
+            ]
+        },
+        {
+            "name": "Japanese",
+            "variants": [
+                "Japanese"
+            ]
+        },
+        {
+            "name": "German",
+            "variants": [
+                "German"
+            ]
+        },
+        {
+            "name": "Tamil",
+            "variants": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Spanish",
+            "variants": [
+                "Spanish"
+            ]
+        },
+        {
+            "name": "Cantonese",
+            "variants": [
+                "Cantonese"
+            ]
+        },
+        {
+            "name": "Urdu",
+            "variants": [
+                "Urdu"
+            ]
+        },
+        {
+            "name": "Punjabi",
+            "variants": [
+                "Punjabi"
+            ]
+        },
+        {
+            "name": "Hindi",
+            "variants": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Bangla",
+            "variants": [
+                "Bangla"
+            ]
+        },
+        {
+            "name": "Bahasa Indonesia",
+            "variants": [
+                "Bahasa Indonesia"
+            ]
+        }
+    ],
+    "educations": [
+        {
+            "name": "SPM",
+            "variants": [
+                "SPM",
+                "SPM ",
+                "Malaysian Certificate of Education",
+                "Sijil Pelajaran Malaysia"
+            ]
+        },
+        {
+            "name": "IGCSE",
+            "variants": [
+                "IGCSE",
+                "International General Certificate of Secondary Education"
+            ]
+        },
+        {
+            "name": "O level",
+            "variants": [
+                "O-levels",
+                "O-level",
+                "O levels",
+                "O level",
+                "Cambridge GCE O'levels"
+            ]
+        },
+        {
+            "name": "Pearson Edexcel",
+            "variants": [
+                "Pearson Edexcel"
+            ]
+        },
+        {
+            "name": "STPM",
+            "variants": [
+                "STPM",
+                "Malaysian Higher School Certificate",
+                "Malaysian Higher School Certificate of Education",
+                "Sijil Tinggi Pelajaran Malaysia"
+            ]
+        },
+        {
+            "name": "A-level",
+            "variants": [
+                "A-level",
+                "A-levels",
+                "A level",
+                "A levels",
+                "GCE A-level",
+                "GCE A level",
+                "GCE A-levels",
+                "GCE A levels",
+                "General Certificate of Education Advanced Level"
+            ]
+        },
+        {
+            "name": "Diploma in Civil Engineering",
+            "variants": [
+                "Diploma in Civil Engineering",
+                "Diploma of Civil Engineering"
+            ]
+        },
+        {
+            "name": "Diploma in Business",
+            "variants": [
+                "Diploma in Business"
+            ]
+        },
+        {
+            "name":"Foundation Degree",
+            "variants": [
+                "Foundation Degree"
+            ]
+        },
+        {
+            "name": "Foundation in Business",
+            "variants": [
+                "Foundation in Business"
+            ]
+        },
+        {
+            "name":"ACCA Foundation In Accountancy",
+            "variants": [
+                "ACCA Foundation In Accountancy"
+            ]
+        },
+        {
+            "name": "ACCA",
+            "variants": [
+                "Accelerate AccA",
+                "AccA",
+                "Association Of Chartered Certified Accountants"
+            ]
+        },
+        {
+            "name":"Bachelor in Business Management",
+            "variants": [
+                "Bachelor in Business Management",
+                "Bachelor of Business Management"
+            ]
+        },
+        {
+            "name":"Bachelor of Science in Actuarial Studies",
+            "variants": [
+                "Bachelor of Science in Actuarial Studies",
+                "Bsc in Actuarial Studies"
+            ]
+        },
+        {
+            "name": "Bachelor of Computer Science",
+            "variants": [
+                "Bachelor in Computer Science",
+                "Bachelor of Computer Science",
+                "Bachelor of Science in Computer Science"
+            ]
+        },
+        {
+            "name": "Bachelor in Information Technology",
+            "variants": [
+                "Bachelor in Information Technology",
+                "Bachelor of Information Technology",
+                "Bachelor in IT",
+                "Bachelor of IT"
+            ]
+        },
+        {
+            "name":"Bachelor of Engineering (Honours) Chemical Engineering",
+            "variants": [
+                "Bachelor of Engineering (Honours) Chemical Engineering"
+            ]
+        },
+        {
+            "name": "Masters of Frontend Development",
+            "variants": [
+                "Masters of Frontend Development",
+                "Masters in Frontend Development"
+            ]
+        },
+        {
+            "name": "Bachelor of Data Science",
+            "variants": [
+                "Bachelor of Data Science",
+                "Bachelor in Data Science"
+            ]
+        },
+        {
+            "name": "Diploma in Information Technology",
+            "variants": [
+                "Diploma in Information Technology",
+                "Diploma of Information Technology",
+                "Diploma in IT",
+                "Diploma of IT"
+            ]
+        },
+        {
+            "name": "Bachelor in Accounting(Fintech)(Honours)",
+            "variants": [
+                "Bachelor's in Accounting(Fintech)(Honours) ",
+                "Bachelor's in Accounting (Fintech)(Honours) ",
+                "Bachelor's in Accounting (Fintech) (Honours) "
+            ]
+        },
+        {
+            "name": "Bachelor of Hospitality and Tourism",
+            "variants": [
+                "HOSPITALITY & TOURISM, B.S",
+                "HOSPITALITY & TOURISM, B.S.",
+                "Bachelor of Hospitality and Tourism",
+                "Bachelor of Hospitality & Tourism",
+                "Bachelor in Hospitality and Tourism",
+                "Bachelor in Hospitality & Tourism"
+            ]
+        },
+        {
+            "name": "Bachelor of Information Technology(Hons)",
+            "variants": [
+                "Bachelor in Information Technology(Hons)",
+                "Bachelor of Information Technology(Hons)",
+                "Bachelor in IT(Hons)",
+                "Bachelor of IT(Hons)",
+                "Bachelor in Information Technology (Hons)",
+                "Bachelor of Information Technology (Hons)",
+                "Bachelor in IT (Hons)",
+                "Bachelor of IT (Hons)"
+            ]
+        },
+        {
+            "name": "Bachelor of Social Psychology",
+            "variants": [
+                "Bachelor of Social Psychology",
+                "Bachelor in Social Psychology"
+            ]
+        },
+        {
+            "name": "Bachelors in Civil Engineering",
+            "variants": [
+                "Bachelors in Civil Engineering",
+                "Bachelors of Civil Engineering"
+            ]
+        },
+        {
+            "name": "Bachelor of Arts (Honours) Accounting and Finance",
+            "variants": [
+                "Bachelor of Arts (Honours) Accounting and Finance",
+                "Bachelor of Arts (Honours) Accounting & Finance",
+                "Bachelor of Arts (Honours)\nAccounting and Finance",
+                "Bachelor of Arts (Honours)\nAccounting & Finance",
+                "Bachelor of Arts (Hons)\nAccounting & Finance",
+                "Bachelor of Arts (Hons)\nAccounting and Finance",
+                "Bachelor of Arts(Hons)\nAccounting and Finance",
+                "Bachelor of Arts(Hons)\nAccounting & Finance"
+            ]
+        },
+        {
+            "name": "Bachelor in Accounting and Finance",
+            "variants": [
+                "Bachelor of Accounting and Finance",
+                "Bachelor of Accounting and\nFinance",
+                "Bachelor of Accounting & Finance",
+                "Bachelor in Accounting and Finance",
+                "Bachelor in Accounting & Finance"
+            ]
+        },
+        {
+            "name": "Bachelor of Arts (Hons) Accounting and Finance",
+            "variants": [
+                "Bachelor of Arts (Hons) Accounting and Finance"
+            ]
+        },
+        {
+            "name": "Bachelor of Business (Hons) Economics and Finance",
+            "variants": [
+                "Bachelor of Business (Hons) Economics and Finance",
+                "Bachelor of Business (Hons) Economics & Finance"
+            ]
+        },
+        {
+            "name":"Bachelor of Law (Hons)",
+            "variants": [
+                "Bachelor of Law (Hons.)",
+                "Bachelor of Law (Hons.),",
+                "BACHELOR OF LAW (HONS.), MULTIMEDIA UNIVERSITY [MMU], MELAKA"
+            ]
+        },
+        {
+            "name":"Bachelor in Banking and Finance (Hons)",
+            "variants": [
+                "Bachelor in Banking and Finance (Hons)",
+                "Bachelor in Banking and Finance (Hons) "
+            ]
+        },
+        {
+            "name":"Canadian International Matriculation Programme (CIMP)",
+            "variants": [
+                "Canadian International Matriculation Programme (CIMP) "
+            ]
+        },
+        {
+            "name": "Master of Science (MSc) in Engineering (Electronic Systems Design Engineering)",
+            "variants": [
+                "Master of Science (MSc) in Engineering (Electronic Systems Design Engineering)",
+                "Master of Science (MSc) in Engineering(Electronic Systems Design Engineering)",
+                "Master of Science in Engineering (Electronic Systems Design Engineering)",
+                "Master of Science in Engineering(Electronic Systems Design Engineering)",
+                "MSc in Engineering(Electronic Systems Design Engineering)",
+                "MSc in Engineering (Electronic Systems Design Engineering)",
+                "Master of Science in Engineering (Electronic Systems Design Engineering) "
+            ]
+        },
+        {
+            "name": "Master of Engineering (Hons) Chemical Engineering",
+            "variants": [
+                "Master of Engineering (Hons) Chemical Engineering",
+                "Master of Engineering (Hons) in Chemical Engineering"
+            ]
+        },
+        {
+            "name": "Masters in Psychology of Wellbeing",
+            "variants": [
+                "Masters in Psychology of Wellbeing",
+                "Masters of Psychology of Wellbeing"
+            ]
+        },
+        {
+            "name": "Ph.D. in Psychology of Wellbeing",
+            "variants": [
+                "Ph.D. in Psychology of Wellbeing",
+                "Ph.D. of Psychology of Wellbeing",
+                "Ph.D in Psychology of Wellbeing",
+                "Ph.D of Psychology of Wellbeing"
+            ]
+        },
+        {
+            "name": "Doctor of Philosophy (PhD) Candidate",
+            "variants": [
+                "Doctor of Philosophy (PhD) Candidate"
+            ]
+        },
+        {
+            "name": "Certified Management Accountant (CMA)",
+            "variants": [
+                "Certified Management Accountant (CMA)",
+                "CMA"
+            ]
+        },
+        {
+            "name": "Master of Science in Finance",
+            "variants": [
+                "Master of Science in Finance"
+            ]
+        },
+        {
+            "name": "Master of Business Administration (MBA)",
+            "variants": [
+                "Master of Business Administration (MBA)",
+                "Master of Business Administration(MBA)",
+                "MBA"
+            ]
+        }
+    ]
+}
