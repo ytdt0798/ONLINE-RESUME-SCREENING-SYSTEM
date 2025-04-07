@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Database{% endblock %}
+
+{% block content %}
+<form method="post" action="{% url 'candidate_ranking' %}">
+    {% csrf_token %}
+    <label for="job_description">Job Description:</label>
+    <textarea id="job_description" name="job_description"></textarea><br>
+  
+    <label for="num_candidates">Number of Candidates:</label>
+    <input type="number" id="num_candidates" name="num_candidates" value="5" min="1"><br>
+  
+    <input type="submit" value="Search">
+  </form>
+
+  {% endblock content %}

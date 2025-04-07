@@ -1,0 +1,133 @@
+{% extends "base.html" %}
+
+{% block title %}Top Candidates{% endblock %}
+
+{% block content %}
+<style>
+.back-button {
+  margin-bottom: 20px;
+}
+
+.back-button a {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.back-button i {
+  margin-right: 5px;
+}
+</style>
+<div class="back-button">
+  <a href="{% url 'candidate_ranking' %}">
+    <i class="fas fa-arrow-left"></i>
+    Back to All Resumes
+  </a>
+</div>
+  <h2>View Mode:</h2>
+  <div>
+    <button id="toggleBtn">Toggle View</button>
+  </div>
+
+  {% if job_description and top_candidates_with_details %}
+    <h2>Job Description:</h2>
+    <p>{{ job_description }}</p>
+
+    <div id="candidateView">
+      <table class="verticalView">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Skills</th>
+            <th>Education</th>
+            <th>Score</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for candidate in top_candidates_with_details %}
+            <tr>
+              <td>{{ forloop.counter }}</td>
+              <td>{{ candidate.name }}</td>
+              <td>{{ candidate.skills|join:", " }}</td>
+              <td>{{ candidate.educations|join:", " }}</td>
+              <td>{{ candidate.score|floatformat:2 }}%</td>
+              <td> <button class="viewResumeBtn" data-resume="{{ candidate.pk }}">View Resume</button></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      {% for candidate in top_candidates_with_details %}
+        <table class="horizontalView" style="display: none;">
+          <tr>
+            <td><strong>Rank</strong></td>
+            <td>{{ forloop.counter }}</td>
+          </tr>
+          <tr>
+            <td><strong>Name</strong></td>
+            <td>{{ candidate.name }}</td>
+          </tr>
+          <tr>
+            <td><strong>Skills</strong></td>
+            <td>{{ candidate.skills|join:", " }}</td>
+          </tr>
+          <tr>
+            <td><strong>Educations</strong></td>
+            <td>{{ candidate.educations|join:", " }}</td>
+          </tr>
+          <tr>
+            <td><strong>Score</strong></td>
+            <td>{{ candidate.score|floatformat:2 }}%</td>
+          </tr>
+          <tr>
+            <td>
+                <button class="viewResumeBtn" data-resume="{{ candidate.pk }}">View Resume</button>
+              </td>
+          </tr>
+        </table>
+        <br>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <script>
+    // JavaScript code to handle view mode toggling
+    const toggleBtn = document.getElementById("toggleBtn");
+    const candidateView = document.getElementById("candidateView");
+    const verticalTables = document.querySelectorAll(".verticalView");
+    const horizontalTables = document.querySelectorAll(".horizontalView");
+
+    let isVerticalView = true;
+
+    toggleBtn.addEventListener("click", function() {
+      isVerticalView = !isVerticalView;
+
+      if (isVerticalView) {
+        candidateView.classList.remove("horizontal");
+        verticalTables.forEach(table => table.style.display = "table");
+        horizontalTables.forEach(table => table.style.display = "none");
+      } else {
+        candidateView.classList.add("horizontal");
+        verticalTables.forEach(table => table.style.display = "none");
+        horizontalTables.forEach(table => table.style.display = "table");
+      }
+    });
+
+    const viewResumeBtns = document.querySelectorAll(".viewResumeBtn");
+
+    viewResumeBtns.forEach(btn => {
+      btn.addEventListener("click", function() {
+        const resumePk = this.getAttribute("data-resume");
+        const url = "{% url 'resume_preview' 0 %}".replace("0", resumePk);
+        window.open(url, "Resume Preview", "width=800,height=600");
+        
+      });
+    });
+
+  </script>
+
+{% endblock %}

@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+{% load custom_filters %}
+{% block title %}Database{% endblock %}
+{% block content %}
+<style>
+  .resume-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .resume-item {
+    position: relative; /* Add position relative to make menu positioning relative to the item */
+    flex-basis: calc(20% - 20px); /* Adjusted to account for the margin */
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
+    border: 1px solid #ccc;
+    margin: 10px; /* Add margin between the resume items */
+    background-color: #f8f8f8; /* Set the background color of the resume item */
+  }
+  
+  .file-box {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #ebebeb;
+  }
+  
+  .file-box i {
+    font-size: 250%; 
+    color: #333; /* Set the color of the icon */
+  }
+  
+  .resume-name {
+    display: block;
+    margin-top: 5px;
+  }
+
+  .search-bar {
+    margin-bottom: 20px;
+  }
+
+  .search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+
+  .search-bar button {
+    padding: 5px 10px;
+  }
+
+  .no-results {
+    margin-top: 20px;
+    font-style: italic;
+    color: #999;
+  }
+  
+  .back-button {
+    margin-bottom: 20px;
+  }
+  
+  .back-button a {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .back-button i {
+    margin-right: 5px;
+  }
+</style>
+<h1>Database</h1>
+<div class="search-bar">
+  <form action="{% url 'candidate_search' %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="search_query" id="search-input" placeholder="Search resumes">
+    <button type="submit" id="search-button">Search</button>
+  </form>
+</div>
+{% if search_results %}
+
+<h2>Search Results</h2>
+<div class="back-button">
+  <a href="{% url 'resume-list' %}">
+    <i class="fas fa-arrow-left"></i>
+    Back to All Resumes
+  </a>
+</div>
+  <div class="resume-list">
+    {% for resume in search_results %}
+      <!-- Display search results -->
+      <div class="resume-item">
+        <a href="{% url 'resume_detail' resume_pk=resume.pk %}">
+          {% if resume.path|lower|endswith:'.pdf' %}
+            <div class="file-box">
+              <i class="far fa-file-pdf"></i> <!-- Icon for PDF files -->
+            </div>
+          {% elif resume.path|lower|endswith:'.doc' or resume.path|lower|endswith:'.docx' %}
+            <div class="file-box">
+              <i class="far fa-file-word"></i> <!-- Icon for Word documents -->
+            </div>
+          {% elif resume.path|lower|endswith:'.xls' or resume.path|lower|endswith:'.xlsx' %}
+            <div class="file-box">
+              <i class="far fa-file-excel"></i> <!-- Icon for Excel spreadsheets -->
+            </div>
+          {% elif resume.path|lower|endswith:'.jpg' or resume.path|lower|endswith:'.jpeg' or resume.path|lower|endswith:'.png' %}
+            <div class="file-box">
+              <i class="far fa-file-image"></i> <!-- Icon for image files -->
+            </div>
+          {% else %}
+            <div class="file-box">
+              <i class="far fa-file"></i> <!-- Default icon for unrecognized file types -->
+            </div>
+          {% endif %}
+          <span class="resume-name">{{ resume }}</span>
+        </a>
+        <div class="right-click-menu">
+          <ul>
+            <li class="update-option">Update</li>
+            <li class="remove-option">Remove</li>
+          </ul>
+        </div>
+      </div>
+    {% empty %}
+      <p class="no-results">No matching resumes found.</p>
+    {% endfor %}
+  </div>
+{% else %}
+  <h2>All Resumes</h2>
+  <div class="resume-list">
+    {% for resume in resumes %}
+      <div class="resume-item">
+        <a href="{% url 'resume_detail' resume_pk=resume.pk %}">
+          {% if resume.path|lower|endswith:'.pdf' %}
+            <div class="file-box">
+              <i class="far fa-file-pdf"></i> <!-- Icon for PDF files -->
+            </div>
+          {% elif resume.path|lower|endswith:'.doc' or resume.path|lower|endswith:'.docx' %}
+            <div class="file-box">
+              <i class="far fa-file-word"></i> <!-- Icon for Word documents -->
+            </div>
+          {% elif resume.path|lower|endswith:'.xls' or resume.path|lower|endswith:'.xlsx' %}
+            <div class="file-box">
+              <i class="far fa-file-excel"></i> <!-- Icon for Excel spreadsheets -->
+            </div>
+          {% elif resume.path|lower|endswith:'.jpg' or resume.path|lower|endswith:'.jpeg' or resume.path|lower|endswith:'.png' %}
+            <div class="file-box">
+              <i class="far fa-file-image"></i> <!-- Icon for image files -->
+            </div>
+          {% else %}
+            <div class="file-box">
+              <i class="far fa-file"></i> <!-- Default icon for unrecognized file types -->
+            </div>
+          {% endif %}
+          <span class="resume-name">{{ resume }}</span>
+        </a>
+      </div>
+    {% empty %}
+      <p class="no-results">No resumes available.</p>
+    {% endfor %}
+  </div>
+{% endif %}
+
+
+{% endblock %}

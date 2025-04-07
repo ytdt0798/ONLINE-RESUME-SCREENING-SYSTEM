@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block title %}Upload Resume - {{ user.name }}{% endblock %}
+
+{% block content %}
+<h1>Upload Resume - {{ user.name }}</h1>
+{% if not resume_data %}
+<form class="form-horizontal" method="post" enctype="multipart/form-data" action="{% url 'upload-resume' %}">
+  {% csrf_token %}
+  {{ form|crispy }}
+  
+  <div class="control-group">
+    <div class="controls">
+      <button type="submit" class="btn btn-primary">Upload</button>
+    </div>
+  </div>
+</form>
+
+{% endif %}
+{% if resume_data %}
+<h2>Resume Data</h2>
+<form class="form-horizontal" method="post" action="{% url 'process-resume' %}">
+  {% csrf_token %}
+  {{ resume_data_form|crispy }}
+  
+  <div class="control-group">
+    <div class="controls">
+      <button type="submit" class="btn btn-primary">Save Resume Data</button>
+    </div>
+  </div>
+</form>
+
+{% endif %}
+
+
+{% endblock %}
+
+
